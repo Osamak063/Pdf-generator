@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wrap{
+      float: left;
+      width: 49.99%;
+    }
+.info{
+    display: flex;
+    margin-bottom: 10px;
+}
+.info p{
+    margin: 0;
+}
+.main-head{
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.main-head h3 {
+    margin: 0;
+}
+.main-head h4 {
+    margin: 5px 0;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-8{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-6{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-12
+{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.ml {
+    margin-left: 170px;
+}
+.text-left{
+    text-align:left;
+}
+.text-center{
+    text-align:center;
+}
+.w-100{
+    width:100%;
+}
+.mw-75{
+    max-width: 73.5%;
+    margin: 0 auto;
+}
+.label-class {
+    font-weight:bold;
+}
+.paddingtop{
+	padding-top: 30px;
+}
+.col-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.col-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+</style>
+<body>
+<div class="main-head">
+    <h3 style="font-weight:normal;">Risk Asset Review-CRE Washington,DC</h3>
+    <h3><strong>Risk Asset Review Line Card</strong>  </h3>
+</div>
+<div class="container">
+    <div class="ml">
+        <div class="row">
+            <div class="col-7">
+                <div class="info">
+                    <label class="label-class">Region:</label>
+                    <p style="padding-left:10px">{Region}</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="info">
+                    <label class="label-class">Borrower:</label>
+                    <p style="padding-left:10px">{Borrower}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="info">
+                    <label class="label-class">City:</label>
+                    <p style="padding-left:10px">{City}</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="info">
+                    <label class="label-class">Relationship:</label>
+                    <p style="padding-left:10px">{Relationship}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="info">
+                    <label class="label-class">Guarantor:</label>
+                    <p style="padding-left:10px">{Guarantor}</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="info">
+                    <label class="label-class">Bus Type:</label>
+                    <p style="padding-left:10px">{Bus Type}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="info">
+                    <label class="label-class">Examiner:</label>
+                    <p style="padding-left:10px">{Examiner}</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="info">
+                    <label class="label-class">Leveraged Financing:</label>
+                    <p style="padding-left:10px">{Leveraged Financing}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="info">
+                    <label class="label-class">Exam Date:</label>
+                    <p style="padding-left:10px">{Exam Date}</p>
+                </div>
+            </div>
+        </div>
+                {Table}
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">Footer text box  </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
